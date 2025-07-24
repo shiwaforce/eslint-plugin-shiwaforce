@@ -4,4 +4,6 @@ All notable changes to this project will be documented in this file. See [commit
 
 ## 1.0.0 (2025-07-24)
 
+## 1.0.0 (2025-07-24)
+
 ## 1.0.1 (2025-07-24)
