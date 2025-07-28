@@ -1,4 +1,3 @@
-
 debugger
 new ResizeObserver();
 process;

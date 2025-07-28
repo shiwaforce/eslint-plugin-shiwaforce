@@ -2,7 +2,9 @@ import fs from 'fs';
 import baseConfig from './lib/base-config.js';
 import clientConfig from './lib/client-config.js';
 import serverConfig from './lib/server-config.js';
+
 const pkg = JSON.parse(fs.readFileSync(new URL('./package.json', import.meta.url), 'utf8'));
+
 export default {
 	meta: {
 		name: pkg.name,
@@ -10,7 +12,7 @@ export default {
 	},
 	configs: {
 		base: baseConfig,
-        client: clientConfig,
-        server: serverConfig
-	},
+		client: clientConfig,
+		server: serverConfig
+	}
 };
