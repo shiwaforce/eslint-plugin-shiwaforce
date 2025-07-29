@@ -12,6 +12,9 @@
     "release": "commit-and-tag-version",
     "lint": "eslint test/*.js"
   },
+  "exports": {
+    ".": "./index.js"
+  },
   "dependencies": {
     "globals": "^16.3.0"
   },
