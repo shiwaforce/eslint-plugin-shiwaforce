@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-shiwaforce",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "module": "index.js",
   "description": "Custom ESLint rules plugin by Shiwaforce",
