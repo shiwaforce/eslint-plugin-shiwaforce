@@ -1,26 +1,29 @@
 {
-	"name": "eslint-plugin-shiwaforce",
-	"type": "module",
-	"devDependencies": {
-		"commit-and-tag-version": "^12.5.1",
-		"prettier": "^3.6.2"
-	},
-	"version": "1.0.0",
-	"description": "",
-	"module": "index.js",
-	"scripts": {
-		"release": "commit-and-tag-version",
-		"lint": "eslint test/*.js"
-	},
-	"author": "",
-	"license": "ISC",
-	"peerDependencies": {
-		"eslint": "^9.31.0"
-	},
-	"dependencies": {
-		"globals": "^16.3.0"
-	},
-	"volta": {
-		"node": "22.17.1"
-	}
+  "name": "eslint-plugin-shiwaforce",
+  "version": "0.0.1",
+  "type": "module",
+  "module": "index.js",
+  "description": "Custom ESLint rules plugin by Shiwaforce",
+  "scripts": {
+    "release": "commit-and-tag-version",
+    "lint": "eslint test/*.js"
+  },
+  "dependencies": {
+    "globals": "^16.3.0"
+  },
+  "devDependencies": {
+    "commit-and-tag-version": "^12.5.1",
+    "prettier": "^3.6.2"
+  },
+  "peerDependencies": {
+    "eslint": "^9.31.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "volta": {
+    "node": "22.17.1"
+  },
+  "author": "Shiwaforce.com Zrt.",
+  "license": "ISC"
 }

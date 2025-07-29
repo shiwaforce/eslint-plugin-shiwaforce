@@ -9,7 +9,7 @@ We want to work with beautiful, nicely formatted code, so with the help of eslin
 ## Installation
 
 ```
-npm install eslint eslint-plugin-shiwaforce --save-dev
+npm install eslint-plugin-shiwaforce --save-dev
 ```
 
 ## Usage
@@ -20,8 +20,9 @@ If you've installed eslint-plugin-shiwaforce locally within your project create 
 ```js
 import { defineConfig } from 'eslint/config';
 import eslintPluginShiwaforce from './index.js';
+
 export default defineConfig({
-    extends: ['shiwaforce/client'],
+	extends: ['shiwaforce/client'],
 	plugins: { shiwaforce: eslintPluginShiwaforce }
 });
 
@@ -49,15 +50,16 @@ Add the `"rules"` key to your config then add your additional/override rules. Fo
 ```js
 import { defineConfig } from 'eslint/config';
 import eslintPluginShiwaforce from 'eslint-plugin-shiwaforce';
+
 export default defineConfig([{
 		extends: ['shiwaforce/server'],
 		plugins: { shiwaforce: eslintPluginShiwaforce }
 	},
 	{
-			rules: {
-				'no-debugger':'off',
-				'no-alert':'off'
-			}
+		rules: {
+			'no-debugger':'off',
+			'no-alert':'off'
+		}
 	}
 ]);
 ```
