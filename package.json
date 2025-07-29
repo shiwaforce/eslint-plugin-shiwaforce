@@ -4,6 +4,10 @@
   "type": "module",
   "module": "index.js",
   "description": "Custom ESLint rules plugin by Shiwaforce",
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiwaforce/eslint-plugin-shiwaforce.git"
+  },
   "scripts": {
     "release": "commit-and-tag-version",
     "lint": "eslint test/*.js"
