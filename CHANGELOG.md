@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.4](https://github.com/shiwaforce/eslint-plugin-shiwaforce/compare/v0.0.3...v0.0.4) (2025-07-29)
+
+
+### Bug Fixes
+
+* export ([50a48ff](https://github.com/shiwaforce/eslint-plugin-shiwaforce/commit/50a48ffe1ddbe36bf7f327de246799a27fe1f964))
+
 ## [0.0.3](https://github.com/shiwaforce/eslint-plugin-shiwaforce/compare/v0.0.2...v0.0.3) (2025-07-29)
 
 
