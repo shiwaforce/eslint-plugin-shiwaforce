@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.0.0](https://github.com/shiwaforce/eslint-plugin-shiwaforce/compare/v0.0.4...v1.0.0) (2025-07-29)
+
+
+### Features
+
+* add stylistic rule ([12e0c9a](https://github.com/shiwaforce/eslint-plugin-shiwaforce/commit/12e0c9ae220f83f2fc021727023b5d3aa7a62a44))
+
 ## [0.0.4](https://github.com/shiwaforce/eslint-plugin-shiwaforce/compare/v0.0.3...v0.0.4) (2025-07-29)
 
 
@@ -27,9 +34,3 @@ All notable changes to this project will be documented in this file. See [commit
 ### Bug Fixes
 
 * reset version ([3fc4a52](https://github.com/shiwaforce/eslint-plugin-shiwaforce/commit/3fc4a5205c62c98a8519317d4e2af2140d34cc4c))
-
-## 1.0.0 (2025-07-24)
-
-## 1.0.0 (2025-07-24)
-
-## 1.0.1 (2025-07-24)
