@@ -24,13 +24,13 @@
     "prettier": "^3.6.2"
   },
   "peerDependencies": {
-    "eslint": "^9.31.0"
+    "eslint": "^10.2.1"
   },
   "engines": {
-    "node": ">=20.0.0"
+    "node": "^20.19.0 || ^22.13.0 || >=24"
   },
   "volta": {
-    "node": "22.17.1"
+    "node": "24.15.0"
   },
   "author": "Shiwaforce.com Zrt.",
   "license": "ISC"
